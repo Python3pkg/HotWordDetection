@@ -10,4 +10,4 @@ hwDet = hd.hwDetector()
 
 print("Speak a word")
 wrdRec.record2File("demo.wav")
-print(hwDet.isHotword("demo.wav"))
+print((hwDet.isHotword("demo.wav")))

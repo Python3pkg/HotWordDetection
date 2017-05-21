@@ -13,6 +13,6 @@ for f in filelist:
     os.remove("./train_audio/" + f)
 print("Record hotword instances...")
 for i in range(10):
-	print("Sample" + str(i))
+	print(("Sample" + str(i)))
 	wRec.record2File("./train_audio/" + str(int(time.time())) + ".wav")
 
